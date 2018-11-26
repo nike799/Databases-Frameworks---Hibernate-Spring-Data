@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<suppliers>
+    <supplier name="3M Company" is-importer="false" parts-count="6"/>
+    <supplier name="Agway Inc." is-importer="false" parts-count="7"/>
+    <supplier name="Anthem, Inc." is-importer="false" parts-count="5"/>
+    <supplier name="Airgas, Inc." is-importer="false" parts-count="4"/>
+    <supplier name="Atmel Corporation" is-importer="false" parts-count="4"/>
+    <supplier name="Big Lots, Inc." is-importer="false" parts-count="7"/>
+    <supplier name="Caterpillar Inc." is-importer="false" parts-count="5"/>
+    <supplier name="Casey's General Stores Inc." is-importer="false" parts-count="5"/>
+    <supplier name="Cintas Corp." is-importer="false" parts-count="7"/>
+    <supplier name="Chubb Corp" is-importer="false" parts-count="1"/>
+    <supplier name="Cintas Corp." is-importer="false" parts-count="3"/>
+    <supplier name="CNF Inc." is-importer="false" parts-count="5"/>
+    <supplier name="CMGI Inc." is-importer="false" parts-count="3"/>
+    <supplier name="The Clorox Co." is-importer="false" parts-count="5"/>
+    <supplier name="Danaher Corporation" is-importer="false" parts-count="1"/>
+    <supplier name="E.I. Du Pont de Nemours and Company" is-importer="false" parts-count="4"/>
+    <supplier name="E*Trade Group, Inc." is-importer="false" parts-count="4"/>
+    <supplier name="Emcor Group Inc." is-importer="false" parts-count="6"/>
+    <supplier name="GenCorp Inc." is-importer="false" parts-count="7"/>
+    <supplier name="IDT Corporation" is-importer="false" parts-count="4"/>
+    <supplier name="Level 3 Communications Inc." is-importer="false" parts-count="5"/>
+    <supplier name="Merck &amp; Co., Inc." is-importer="false" parts-count="2"/>
+    <supplier name="Nicor Inc" is-importer="false" parts-count="8"/>
+    <supplier name="Olin Corp." is-importer="false" parts-count="2"/>
+    <supplier name="Paychex Inc" is-importer="false" parts-count="3"/>
+    <supplier name="Saks Inc" is-importer="false" parts-count="4"/>
+    <supplier name="Sunoco Inc." is-importer="false" parts-count="4"/>
+    <supplier name="Textron Inc" is-importer="false" parts-count="3"/>
+    <supplier name="VF Corporation" is-importer="false" parts-count="3"/>
+    <supplier name="Wyeth" is-importer="false" parts-count="4"/>
+    <supplier name="Zale" is-importer="false" parts-count="0"/>
+</suppliers>

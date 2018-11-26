@@ -53,4 +53,8 @@ public interface BookRepository extends JpaRepository<Book, Integer>{
 
     @Procedure(name = "usp_get_count_of_books_of_given_author")
     int countBooksByAuthor_FirstNameAndAuthor_LastName(@Param(value = "firstName") String firstName, @Param(value = "lastName") String lastName);
+	
+    // Problem 14
+    @Query(value = "call books_by_author(:firstName, :lastName)", nativeQuery = true)
+    Object[] storedProcedure(@Param(value = "firstName") String firstName, @Param(value = "lastName") String lastName);
 }
