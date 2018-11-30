@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<categories>
+    <category name="Drugs">
+        <products-count>36</products-count>
+        <average-price>671.57</average-price>
+        <total-revenue>24176.62</total-revenue>
+    </category>
+    <category name="Fashion">
+        <products-count>29</products-count>
+        <average-price>700.76</average-price>
+        <total-revenue>20322.01</total-revenue>
+    </category>
+    <category name="Business">
+        <products-count>23</products-count>
+        <average-price>917.95</average-price>
+        <total-revenue>21112.93</total-revenue>
+    </category>
+    <category name="Weapons">
+        <products-count>22</products-count>
+        <average-price>825.59</average-price>
+        <total-revenue>18162.96</total-revenue>
+    </category>
+    <category name="For Children">
+        <products-count>17</products-count>
+        <average-price>938.21</average-price>
+        <total-revenue>15949.57</total-revenue>
+    </category>
+    <category name="Autoparts">
+        <products-count>16</products-count>
+        <average-price>869.36</average-price>
+        <total-revenue>13909.84</total-revenue>
+    </category>
+    <category name="Garden">
+        <products-count>15</products-count>
+        <average-price>757.09</average-price>
+        <total-revenue>11356.35</total-revenue>
+    </category>
+    <category name="Sports">
+        <products-count>14</products-count>
+        <average-price>666.54</average-price>
+        <total-revenue>9331.57</total-revenue>
+    </category>
+    <category name="Electronics">
+        <products-count>14</products-count>
+        <average-price>720.26</average-price>
+        <total-revenue>10083.64</total-revenue>
+    </category>
+    <category name="Adult">
+        <products-count>14</products-count>
+        <average-price>689.12</average-price>
+        <total-revenue>9647.68</total-revenue>
+    </category>
+    <category name="Other">
+        <products-count>0</products-count>
+        <average-price>0</average-price>
+        <total-revenue>0</total-revenue>
+    </category>
+</categories>
