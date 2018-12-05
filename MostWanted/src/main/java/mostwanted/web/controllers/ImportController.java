@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.xml.bind.JAXBException;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 
 @Controller
@@ -111,7 +112,7 @@ public class ImportController extends BaseController {
     }
 
     @PostMapping("/race-entries")
-    public ModelAndView importRaceEntriesConfirm() throws JAXBException {
+    public ModelAndView importRaceEntriesConfirm() throws JAXBException, IOException {
         System.out.println(this.raceEntryService.importRaceEntries());
 
         return super.redirect("/import/xml");
@@ -123,7 +124,7 @@ public class ImportController extends BaseController {
     }
 
     @PostMapping("/races")
-    public ModelAndView importRacesConfirm() throws JAXBException {
+    public ModelAndView importRacesConfirm() throws JAXBException, FileNotFoundException {
         System.out.println(this.raceService.importRaces());
 
         return super.redirect("/import/xml");

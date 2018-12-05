@@ -7,6 +7,7 @@ import mostwanted.util.contract.ValidationUtil;
 import mostwanted.util.contract.XmlParser;
 import mostwanted.util.impl.FileUtilImpl;
 import mostwanted.util.impl.ValidationUtilImpl;
+import mostwanted.util.impl.XmlParserImpl;
 import org.modelmapper.ModelMapper;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -26,9 +27,7 @@ public class ApplicationBeanConfiguration {
 
     @Bean
     public XmlParser xmlParser() {
-        // TODO : Implement me
-        return null;
-        //return new XmlParserImpl();
+        return new XmlParserImpl();
     }
 
     @Bean

@@ -1,5 +1,7 @@
 package mostwanted.service.contract;
 
+import javax.xml.bind.JAXBException;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 
 public interface RaceService {
@@ -8,5 +10,5 @@ public interface RaceService {
 
     String readRacesXmlFile() throws IOException;
 
-    String importRaces();
+    String importRaces() throws JAXBException, FileNotFoundException;
 }

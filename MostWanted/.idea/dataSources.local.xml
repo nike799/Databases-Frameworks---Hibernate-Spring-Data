@@ -9,7 +9,7 @@
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
       <secret-storage>master_key</secret-storage>
       <user-name>root</user-name>
-      <introspection-schemas>*:</introspection-schemas>
+      <introspection-schemas>*:most_wanted_db</introspection-schemas>
     </data-source>
   </component>
 </project>

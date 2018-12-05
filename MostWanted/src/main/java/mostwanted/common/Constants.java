@@ -9,4 +9,6 @@ public class Constants {
     public final static String SUCCESSFUL_IMPORT_MESSAGE = "Successfully imported %s – %s.";
 
     public final static String SUCCESSFUL_IMPORT_MESSAGE_CAR = "Successfully imported %s %s @ %s";
+
+    public final static String SUCCESSFUL_IMPORT_MESSAGE_RACER_OR_RACE_ENTRY = "Successfully imported %s %s";
 }

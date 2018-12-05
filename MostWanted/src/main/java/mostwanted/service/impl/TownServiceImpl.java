@@ -2,6 +2,7 @@ package mostwanted.service.impl;
 
 import com.google.gson.Gson;
 import mostwanted.common.Constants;
+import mostwanted.domain.dtos.towndtos.TownExportDto;
 import mostwanted.domain.dtos.towndtos.TownImportDto;
 import mostwanted.domain.entities.Town;
 import mostwanted.repository.TownRepository;
@@ -73,6 +74,15 @@ public class TownServiceImpl implements TownService {
 
     @Override
     public String exportRacingTowns() {
-        return null;
+        StringBuilder importResult = new StringBuilder();
+        Object[][] townsWithRacers = this.townRepository.findAllTownWithRacers();
+        for (Object[] obj : townsWithRacers) {
+            TownExportDto townExportDto = new TownExportDto();
+            townExportDto.setTownName(String.valueOf(obj[0]));
+            townExportDto.setCountRacers(String.valueOf(obj[1]));
+            importResult.append(townExportDto.toString()).
+                    append(System.lineSeparator());
+        }
+        return importResult.toString().trim();
     }
 }

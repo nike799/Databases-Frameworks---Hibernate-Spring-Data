@@ -15,6 +15,7 @@ import org.springframework.stereotype.Service;
 
 import java.io.IOException;
 import java.util.Arrays;
+import java.util.List;
 
 @Service
 public class RacerServiceImpl implements RacerService {
@@ -76,6 +77,35 @@ public class RacerServiceImpl implements RacerService {
 
     @Override
     public String exportRacingCars() {
-        return null;
+        StringBuilder importResult = new StringBuilder();
+        List<Racer> racers = this.racerRepository.findAllByCarsIsNotNullOrderByCarsDescNameAsc();
+        racers.forEach(racer -> {
+            String name = racer.getName();
+            Integer age = racer.getAge();
+            importResult.
+                    append(System.lineSeparator()).
+                    append("Name: ").
+                    append(name).
+                    append(System.lineSeparator());
+
+            if (age != null) {
+                importResult.append("Age: ").
+                        append(age.toString()).
+                        append(System.lineSeparator());
+            }
+            importResult.
+                    append("Cars:").
+                    append(System.lineSeparator());
+            racer.getCars().forEach(car ->
+                    importResult.
+                            append(car.getBrand()).
+                            append(" ").
+                            append(car.getModel()).
+                            append(" ").
+                            append(car.getYearOfProduction()).
+                            append(System.lineSeparator())
+            );
+        });
+        return importResult.toString().trim();
     }
 }
